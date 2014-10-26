@@ -29,6 +29,7 @@ VALUES ('$theme', '$title', '$description', '$background', '$s1h', '$s1d', '$s1l
 if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
+$result = mysqli_query($con,"SELECT Id FROM table ORDER BY Id DESC LIMIT 1");
 
 echo"<html>
   <head>
@@ -66,7 +67,7 @@ echo"<html>
 
   
 </head>
-  <body>
+  <body> <p hidden>" . $Id . "</p>
         <!-- Intro Header -->
     <header class=\"intro\">
         <div class=\"intro-body\">
