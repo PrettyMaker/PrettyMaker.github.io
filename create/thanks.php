@@ -29,5 +29,8 @@ VALUES ('$theme', '$title', '$description', '$background', '$s1h', '$s1d', '$s1l
 if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
+
+echo"<html><head><title>".$title."</title></head></html>"
+
 mysqli_close($con);
 ?>
