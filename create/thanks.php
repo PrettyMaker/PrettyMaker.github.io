@@ -30,7 +30,7 @@ if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
 
-echo"<html><head><title>".$title."</title></head></html>"
+echo"<html><head><title>".$title."</title></head></html>";
 
 mysqli_close($con);
 ?>
