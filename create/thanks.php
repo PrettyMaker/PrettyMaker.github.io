@@ -73,8 +73,8 @@ echo"<html>
             <div class=\"container\">
                 <div class=\"row\">
                     <div class=\"col-md-8 col-md-offset-2\">
-                        <strong><h1 >Pretty Maker</h1></strong>
-                        <p class=\"intro-text\">Pretty Maker allows you to quickly make and itterate on simple and effective webpage desing. Pretty Maker allows you to chose from a variety of templates and create an awesome website by telling us what you want to put where. Then, we give you the HTML, so you can change it however you see fit!</p>
+                        <strong><h1 >" . $title . "</h1></strong>
+                        <p class=\"intro-text\">" . $description . "</p>
                     </div>
                 </div>
             </div>
