@@ -29,6 +29,7 @@ VALUES ('$theme', '$title', '$description', '$background', '$s1h', '$s1d', '$s1l
 if (!mysqli_query($con,$sql)) {
   die('Error: ' . mysqli_error($con));
 }
+$result = mysqli_query($con,"SELECT * FROM pretty ORDER BY Id DESC LIMIT 1;
 mysqli_close($con);
 ?>
 <!--This layout taken from https://github.com/Thisiswhathackerfundcouldlooklike/Thisiswhathackerfundcouldlooklike.github.io-->
