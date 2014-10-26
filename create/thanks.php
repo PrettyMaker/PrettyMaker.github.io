@@ -23,7 +23,7 @@ $s4h = mysqli_real_escape_string($con, $_POST['s4h']);
 $s4d = mysqli_real_escape_string($con, $_POST['s4d']);
 $s4l = mysqli_real_escape_string($con, $_POST['s4l']);
 
-$sql="INSERT INTO tips1 (theme, title, description, background, s1h, s1d, s1l, s2h, s2d, s2l, s3h, s3d, s3l, s4h, s4d, s4l)
+$sql="INSERT INTO pretty (theme, title, description, background, s1h, s1d, s1l, s2h, s2d, s2l, s3h, s3d, s3l, s4h, s4d, s4l)
 VALUES ('$theme', '$title', '$description', '$background', '$s1h', '$s1d', '$s1l', '$s2h', '$s2d', '$s2l', '$s3h', '$s3d', '$s3l', '$s4h', '$s4d', '$s4l')";
 
 if (!mysqli_query($con,$sql)) {
