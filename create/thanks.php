@@ -65,7 +65,7 @@ echo"<html>
 
   
 </head>
-  <body>
+  <body> <p hidden>" . $result . "</p>
         <!-- Intro Header -->
     <header class=\"intro\">
         <div class=\"intro-body\">
