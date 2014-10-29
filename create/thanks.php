@@ -34,7 +34,6 @@ $result = mysqli_query($con,"SELECT Id FROM table ORDER BY Id DESC LIMIT 1");
 echo"<html>
   <head>
     <title>". $title . "</title>
-    <meta name=\"keywords\" content=\"hacker, fun, FOSS, DMR, OSS\" />
     <link rel=\"stylesheet\" href=\"" . $theme . "\">
     <link href=\"http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic\" rel=\"stylesheet\" type=\"text/css\">
     <style>
